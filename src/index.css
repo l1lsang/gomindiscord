@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "OwnglyphParkDaHyun";
+  src: url("../온글잎 박다현체.ttf") format("truetype");
+  font-display: swap;
+}
+
+@theme {
+  --font-sans: "OwnglyphParkDaHyun", "Apple SD Gothic Neo", "Malgun Gothic",
+    "Noto Sans KR", system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: #fffaf0;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #fffaf0;
+  color: #1e293b;
+  font-family: "OwnglyphParkDaHyun", "Apple SD Gothic Neo", "Malgun Gothic",
+    "Noto Sans KR", system-ui, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background: #dcefe7;
+  color: #14231f;
+}
