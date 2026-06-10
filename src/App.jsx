@@ -16,7 +16,7 @@ import {
   Users,
 } from "lucide-react";
 
-const DISCORD_INVITE_URL = "https://discord.gg/your-invite-link";
+const DISCORD_INVITE_URL = "https://discord.gg/B5dq2K2JTq";
 
 const recommendations = [
   "편하게 이야기할 친구가 필요한 분",
