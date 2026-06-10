@@ -101,7 +101,7 @@ function App() {
           <div className="max-w-2xl">
             <div className="inline-flex items-center gap-2 rounded-full border border-[#d6ece3] bg-white/80 px-4 py-2 text-sm font-bold text-[#4c6c64] shadow-[0_10px_26px_rgba(79,101,93,0.10)]">
               <Sparkles aria-hidden="true" size={16} />
-              현재 100명 이상 함께하는 중
+              현재 90명 이상 함께하는 중
             </div>
 
             <h1 className="mt-6 text-4xl font-black leading-[1.15] text-slate-950 sm:text-5xl lg:text-6xl">
