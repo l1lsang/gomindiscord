@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>고민을 나눠요</title>
+    <link>https://gomindiscord.com/</link>
+    <description>고민, 일상, 잡담을 편하게 나누는 따뜻한 디스코드 커뮤니티입니다. 서로 존중하는 공간에서 함께 이야기해요.</description>
+    <language>ko</language>
+    <lastBuildDate>Thu, 11 Jun 2026 00:00:00 +0900</lastBuildDate>
+    <atom:link href="https://gomindiscord.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>고민을 나눠요 - 따뜻한 디스코드 고민 커뮤니티</title>
+      <link>https://gomindiscord.com/</link>
+      <description>고민, 일상, 잡담을 편하게 나누는 따뜻한 디스코드 커뮤니티입니다. 서로 존중하는 공간에서 함께 이야기해요.</description>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://gomindiscord.com/</guid>
+    </item>
+  </channel>
+</rss>
