@@ -43,6 +43,17 @@ const rules = [
   "모두에게 동일한 규칙 적용",
 ];
 
+function handleInviteClick(event) {
+  const reportConversion = window.gtag_report_conversion;
+
+  if (typeof reportConversion !== "function") {
+    return;
+  }
+
+  event.preventDefault();
+  reportConversion(event.currentTarget.href);
+}
+
 function InviteButton({ children = "디스코드 서버 입장하기", variant = "primary" }) {
   const variantClass =
     variant === "light"
@@ -53,6 +64,7 @@ function InviteButton({ children = "디스코드 서버 입장하기", variant =
     <a
       className={`inline-flex min-h-12 items-center justify-center gap-2 rounded-lg px-5 py-3 text-base font-bold transition duration-200 hover:-translate-y-0.5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 ${variantClass}`}
       href={DISCORD_INVITE_URL}
+      onClick={handleInviteClick}
       aria-label="고민을 나눠요 디스코드 서버 입장하기"
     >
       {children}

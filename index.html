@@ -11,6 +11,23 @@
 
       gtag('config', 'AW-18026674478');
     </script>
+    <!-- Event snippet for 가입 conversion page -->
+    <script>
+      function gtag_report_conversion(url) {
+        var callback = function () {
+          if (typeof(url) != 'undefined') {
+            window.location = url;
+          }
+        };
+        gtag('event', 'conversion', {
+            'send_to': 'AW-18026674478/Q88qCKm__7wcEK7y5JND',
+            'value': 1.0,
+            'currency': 'KRW',
+            'event_callback': callback
+        });
+        return false;
+      }
+    </script>
     <link rel="icon" type="image/svg+xml" href="/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
